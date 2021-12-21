@@ -9,3 +9,74 @@ h3{
 ul{
     border: 0.1px solid;
 } 
+body{
+    background: url(/assets/46007014-résumé-fond-bleu-technology-background-de-la-série-meilleur-concept-du-commerce-mondial.webp);
+}
+#TR{
+    text-align: center;
+    color: white;
+}
+a{
+    color: yellow;
+    padding: 40px;
+    text-align: center;
+}
+nav{
+    width: 50% auto;   /* == 400px * .5 = 200px */
+    height: 25%;  /* == 160px * .25 = 40px */
+    margin: 5%;   /* == 400px * .05 = 20px */
+    padding: 2%;
+    border: 2px solid;
+}
+#M{
+    position: absolute;
+    top: 25%;
+}
+#I{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+#B{
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}
+#T{
+    position: absolute;
+    top: 45%;
+}
+#P{
+    position: absolute;
+    top: 45%;
+    left: 43%;
+}
+#C{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+#L{
+    position: absolute;
+    top: 60%;
+}
+#CO{
+    position: absolute;
+    top: 60%;
+    left: 44%;
+}
+#TA{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+}
+#S{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+#NBP{
+    position: absolute;
+    top: 60%;
+    left: 58%;
+}
