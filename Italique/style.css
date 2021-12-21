@@ -1,0 +1,18 @@
+h1, h2{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: blue;
+}
+ul{
+    border: 0.1px solid;
+} 
+#Italique {
+    width: 50% auto;
+    height: 25%;
+    margin: 5%;
+    padding: 2%;
+    border: 2px solid;
+}

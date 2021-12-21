@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Les morceaux de code</h1>
+    <article id="Code">
+        <h3>Code</h3>
+        <p>Pour écrire un morceau de code dans un texte, Markdown l’identifie au moyen du caractère appelé le
+            Backtick ou apostrophe inversée. <br> <br>
+            Attention, à ne pas confondre avec les guillemets. <br> <br>
+            Le marquage est donc constitué d’une apostrophe inversée au début et à la fin du segment correspondant
+            au code. <br>
+            C’est ainsi que vous pourrez incorporer directement le code source ou une commande logicielle dans le
+            texte. <br> <br>
+            Exemple :
+        </p>
+        <ul>
+            <li>C'est le ` code `</li>
+        </ul>
+        <p>
+            NOTE ! <br>
+            Attention cependant à ne pas écrire par mégarde un accent grave, par exemple : à. C’est ce qui risque
+            d’arriver si vous insérez ce caractère devant une voyelle. Pour éviter ce problème, pensez à insérer une
+            espace entre l’apostrophe inversée et la voyelle. <br> <br>
+            Si votre codage renferme déjà l’apostrophe inversée, vous devez précéder la zone de code de deux fois ce
+            caractère. Dans ce cas, Markdown n’interprétera pas l’apostrophe inversée comme une balise. <br> <br>
+            Exemple :
+        </p>
+        <ul>
+            <li>`` C'est tout le ` code ` . ``</li>
+        </ul>
+        <p>
+            Pour identifier tout un bloc de texte comme du code source, vous pourrez utiliser soit la touche de
+            <strong>
+                tabulation ou quatre espaces consécutives </strong>, et ce pour chaque ligne concernée. <br>
+            Pour indenter davantage certaines lignes, il vous suffira d’insérer des tabulations ou des espaces. <br>
+        </p>
+        <ul>
+            <li>
+                Encore écrit ici en texte ordinaire <br>
+                &#160;&#160;&#160;&#160;Ceci est la première ligne du bloc de code <br>
+                &#160;&#160;&#160;&#160;La seconde ligne est encore plus en retrait <br>
+                &#160;&#160;&#160;&#160;C’est une autre ligne du bloc de code <br>
+                C’est ici que le texte ordinaire recommence
+            </li>
+        </ul>
+        <p>
+            Si vous préférez utiliser des caractères pour introduire et refermer des blocs de codage, il est
+            possible
+            d’utiliser <strong>trois apostrophes inversées</strong> au début et à la fin du bloc. <br>
+            Plusieurs éditeurs Markdown offrent par ailleurs la possibilité d’opter automatiquement pour un balisage
+            de
+            couleur. <br>
+            Pour ce faire, il vous faut préciser, juste après les trois apostrophes d'introduction, le langage dans
+            lequel vous avez édité le code source. <br> <br>
+            Exemple :
+        </p>
+        <ul>
+            <li>
+                ```html <br> <br>
+                &lt;html&gt; <br>
+                &#160;&#160;&#160;&#160;&lt;head&gt; <br>
+                &#160;&#160;&#160;&#160;&lt;/head&gt; <br>
+                &lt;/html&gt; <br> <br>
+                ```
+            </li>
+        </ul>
+
+    </article>
+</body>
+</html>

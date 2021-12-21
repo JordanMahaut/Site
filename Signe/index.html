@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Les signes</h1>
+    <article id="Signe">
+        <h3>& et &lt; &gt;</h3>
+        <p>
+            Markdown étant très proche de HTML, il convient de regarder de plus près à l’usage du « et commercial »
+            ainsi que les signes supérieur et inférieur. <br>
+            Ces caractères sont employés en HTML pour ouvrir et fermer des balises (&lt; &gt;) ou pour travailler
+            avec des entités (&). <br>
+            Si l’on veut utiliser ces caractères dans leur signification d’origine, il faudra les masquer en HTML :
+            &, &lt; et &gt;. <br>
+            Avec Markdown, il n’y a normalement aucune raison de ne pas utiliser ces caractères tels quels. <br>
+            Mais comme il est possible pour les utilisateurs de combiner Markdown et HTML, la situation est un peu
+            complexe. <br>
+            Pour vous éviter de devoir faire face à de tels problèmes, l’analyseur syntaxique sait faire la
+            différence entre les moments où vous souhaitez utiliser ces caractères et les situations de code HTML.
+        </p>
+        <ul>
+            <li>A & B</li>
+            <li>&alpha;</li>
+            <li>1 &lt; 2</li>
+            <li>&lt;p&gt;</li>
+        </ul>
+    </article>
+</body>
+</html>

@@ -1,0 +1,11 @@
+h1, h2{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: blue;
+}
+ul{
+    border: 0.1px solid;
+} 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image et Hyperliens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Comment mettres des images et hyperliens avec Markdown</h1>
+    <article id="IH">
+        <h3>Images et hyperliens</h3>
+        <p>
+            Markdown permet aussi d’insérer des images et des hyperliens dans votre texte. <br>
+            Cette insertion se fait en <strong>combinant des parenthèses et des crochets</strong>. <br>
+            Pour créer un lien, vous devrez écrire les mots ou les phrases visibles dans le texte entre crochets,
+            suivis directement de l’adresse URL entre parenthèses. <br>
+            Si vous souhaitez ajouter au lien un titre facultatif, visible par l’utilisateur au survol de la souris,
+            c’est tout à fait possible : ce texte devra être ajouté à l’adresse URL entre les parenthèses, mais sera
+            séparé d’une espace de l’URL, et inscrit entre guillemets doubles. <br> <br>
+            Exemple :
+        </p>
+        <ul>
+            <li>Ici ce qui suit [Lien](https://example.com/ "titre de lien optionnel").</li>
+        </ul>
+        <p>
+            Si vous insérez une adresse URL ou une adresse électronique dans votre texte ordinaire, la plupart des
+            éditeurs Markdown créeront automatiquement un hyperlien accessible par clic. <br>
+            Pour forcer cette fonction, utilisez les signes inférieur et supérieur à. <br>
+            Si, en revanche, vous souhaitez empêcher les éditeurs d’activer cette fonction, marquez l’URL comme
+            code, et
+            utilisez à nouveau les apostrophes inversées. <br> <br>
+            Exemple :
+        </p>
+        <ul>
+            <li>&lt;https://example.com&gt;</li>
+            <li>`https://example.com`</li>
+        </ul>
+        <p>
+            La syntaxe permettant d’insérer des images est semblable à celle des liens. <br>
+            On commence cependant par insérer un point d’exclamation. <br>
+            Suivent ensuite les crochets entre lesquels on insère le texte alternatif de l’image, puis l’URL de
+            l’image
+            entre parenthèses. <br>
+            L’image sera dans ce cas directement affichée dans le texte. <br> <br>
+
+            Exemple :
+        </p>
+        <ul>
+            <li>![Ceci est un exemple d’image](https://example.com/bild.jpg)</li>
+        </ul>
+        <p>
+            <strong>CONSEIL !</strong> <br>
+            Vous pouvez bien sûr créer des liens vers des pages HTML ou des images se trouvant sur votre propre
+            serveur.
+            <br>
+            Si le document concerné se trouve sur le même serveur, vous pouvez vous contenter de liens relatifs.
+            <br>
+            <br>
+
+            Vous pouvez aussi combiner des images et des hyperliens. <br>
+            Si vous souhaitez insérer un lien cliquable derrière l’image, vous devez <strong>combiner les deux
+                fonctions</strong>. <br>
+            L’image devient dans ce cas le texte d’ancrage et s’affiche donc entre les crochets. <br><br>
+            Exemple :
+        </p>
+        <ul>
+            <li>[![Ceci est un exemple d’image](https://example.com/bild.jpg)](https://example.com)</li>
+        </ul>
+
+    </article>
+</body>
+</html>

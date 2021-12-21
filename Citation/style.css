@@ -1,0 +1,18 @@
+#Citation{
+    width: 50% auto;   /* == 400px * .5 = 200px */
+    height: 25%;  /* == 160px * .25 = 40px */
+    margin: 5%;   /* == 400px * .05 = 20px */
+    padding: 2%;
+    border: 2px solid;
+}
+h1, h2{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: blue;
+}
+ul{
+    border: 0.1px solid;
+} 

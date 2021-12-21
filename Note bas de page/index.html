@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note bas de page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Note bas de page</h1>
+    <article id="NBP">
+        <h3>Les notes de bas de page</h3>
+        <p>
+            Markdown vous permet aussi d’éditer des notes de bas de page. <br>
+            Ajoutez tout simplement dans votre texte
+            un numéro d’annotation, et reprenez ce numéro en bas de votre page dans une note de bas de page. <br>
+            Markdown créera alors automatiquement une ligne. <br>
+            Le chiffre correspondant à l’annotation est automatiquement formaté en lien, ce qui vous permet
+            d’atteindre la note de bas de page par un simple clic. <br>
+            Pour pouvoir bénéficier de cet automatisme, commencez par inscrire le numéro de l’annotation derrière le
+            mot souhaité : commencez par écrire un accent circonflexe entre les crochets, suivi du
+            numéro. <br> <br>
+
+            Le choix du chiffre (ou autres valeurs) n’a aucune espèce d’importance. <br>
+            Comme pour la création de liste, Markdown se charge de la numérotation. <br>
+            Ce qui est important, c’est de créer ensuite un renvoi vers la désignation que vous aurez sélectionnée.
+            <br>
+            Pour ce faire, vous devez reprendre le même chiffre dans une nouvelle ligne, inséré à nouveau entre
+            crochets avec un accent circonflexe, vous ajoutez le signe des
+            deux points, et vous rédigez le texte de l’annotation. <br>
+            Ce texte pourra d’ailleurs faire l’objet d’un formatage de votre choix, et s’étendre sur plusieurs
+            lignes.
+        </p>
+        <ul>
+            <li>Dans le texte ordinaire [^1] vous pouvez facilement placer des notes de bas de page [^2]</li>
+            <li>[^1]: Vous trouverez ici le texte de la note de bas de page.</li>
+            <li>[^2]: **Note de page de page** peut aussi être *formatée*.</li>
+            <li>Et celles-ci comprennent même plusieurs lignes</li>
+        </ul>
+        <p>
+            CONSEIL ! <br> <br>
+            L’endroit où vous l’implantez dans le texte n’a pas d’importance. <br>
+            Markdown le placera dans tous les cas à la fin du document. <br>
+            Pour clore l’annotation et poursuivre la rédaction du corps de texte, ajoutez tout simplement une ligne
+            vierge.
+        </p>
+    </article>
+</body>
+</html>
